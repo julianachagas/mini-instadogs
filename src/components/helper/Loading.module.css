@@ -1,0 +1,25 @@
+.loading {
+  max-width: 25%;
+  margin: 3.2rem auto;
+  height: 3px;
+  background: black;
+  overflow: hidden;
+}
+
+.loading::before {
+  content: '';
+  width: 75%;
+  height: 100%;
+  background-color: #fff;
+  display: block;
+  animation: load 0.8s linear forwards infinite;
+}
+
+@keyframes load {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(125%);
+  }
+}
