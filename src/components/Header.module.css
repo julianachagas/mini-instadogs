@@ -1,0 +1,22 @@
+.header {
+  padding-block: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header button {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 50%;
+}
+
+.header button.loading {
+  background-color: orange;
+}
+
+.header button.logged {
+  background-color: palegreen;
+}

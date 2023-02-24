@@ -1,0 +1,34 @@
+.login input {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.login input:focus {
+  outline: none;
+  border-color: lightcoral;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.login button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+  transition: 0.3s ease-in-out;
+}
+
+.login button:hover {
+  transform: translateY(2px);
+  opacity: 0.85;
+}
