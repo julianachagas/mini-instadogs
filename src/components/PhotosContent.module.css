@@ -1,0 +1,29 @@
+.item {
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  grid-template-rows: 80px;
+  align-items: center;
+  gap: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.item img {
+  border-radius: inherit;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.item h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.item span {
+  font-family: 'Courier New', Courier, monospace;
+  color: #999;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
