@@ -11,10 +11,6 @@ Test Account:
 
 The API used in the project (for user authentication and for fetching the photos) was created by Origamid.
 
-## 💻 Status
-
-🚧 _in progress_ 🚧
-
 ## 🛠️ Technologies
 
 - HTML
@@ -30,6 +26,38 @@ The API used in the project (for user authentication and for fetching the photos
 ✔️ Loading animation \
 ✔️ Responsiveness \
 ✔️ Logout
+
+## 🔗 Link
+
+- Live Site URL: [Mini InstaDogs](https://mini-instadogs.netlify.app/)
+
+## 💻 Preview
+
+<img src="github/app.gif" alt=""/> <br/><br/>
+
+## ⚙️ How to use
+
+To clone and run this project you'll need [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com) installed on your computer. In addition, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/). Follow the instructions bellow:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/julianachagas/mini-instadogs.git
+
+# Go into the repository
+$ cd mini-instadogs
+
+# Install the dependencies
+$ npm install
+
+# Run the app in development mode
+# Open http://localhost:3000 to view it in your browser
+$ npm start
+
+# Build the app for production to the `build` folder
+# It correctly bundles React in production mode and optimizes the build for the best performance.
+$ npm run build
+
+```
 
 ## 👩🏻‍💻 Author
 
